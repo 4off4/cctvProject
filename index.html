@@ -18,7 +18,7 @@
 /////////////////////////////////////////////////////////////////////////////////////////////-->
 <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="">
+      <a class="navbar-brand">
         <img src="images/logo.png" alt="logo image" href="index.html">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +35,7 @@
           </li>
         </ul>
         <button type="button" class="rounded-pill btn-rounded" onclick="document.location.href='tel:1111-1111'">
-          <a href="tel:02-1111-1111">1111-1111로 전화걸기</a>
+          <a href="tel:02-1111-1111"></a>
           1111-1111
           <span>
             <i class="fas fa-phone-alt"></i>
@@ -51,7 +51,7 @@
 
 <section id="home" class="intro-section">
   <div class="container">
-    <div class="row align-items-center text-white">
+    <div class="row align-items-center text-black">
       <!-- START THE CONTENT FOR THE INTRO  -->
       <div class="col-md-6 intros text-start">
         <h1 class="display-2">
@@ -63,14 +63,16 @@
             대표 문의 전화 1111-1111
           </span>
         </h1>
-        <button type="button" class="rounded-pill btn-rounded">문의하기
+
+        <button type="button" class="rounded-pill btn-rounded" onclick="document.location.href='tel:1111-1111'">
+          <a href="tel:02-1111-1111"></a>문의하기
           <span><i class="fas fa-arrow-right"></i></span>
         </button>
       </div>
       <!-- START THE CONTENT FOR THE VIDEO -->
       <div class="col-md-6 intros text-end">
         <div class="video-box">
-          <img src="images/arts/intro-section-illustration.png" alt="video illutration" class="img-fluid">
+          <img src="images/cctvMainImg.png" alt="video illutration" class="img-fluid">
           <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
             <span>
               <i class="fas fa-play-circle"></i>
@@ -105,7 +107,10 @@
       <div class="col-md-6">
         <div class="bg-white p-4 text-start">
           <p class="fw-light">
-            보안 영역의 전문성을 바탕으로 쌓아온 고객과의 깊은 신뢰를 통해 최적의 일상 경험을 제공합니다.
+            <strong> 고객이 인정한 최고의 보안 전문기업</strong><br/>
+            보안 영역의 전문성을 바탕으로 쌓아온 고객과의 깊은 신뢰를 통해 최적의 일상 경험을 제공합니다. <br/>
+            24시간 관제와 CCTV 원격 모니터링, 출입보안 등
+            일상 생활 속 재난 및 범죄 위협으로부터 철저한 보안 서비스를 제공합니다.
           </p>
         </div>
       </div>
@@ -118,21 +123,20 @@
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
         <div class="services__content">
-          <div class="icon d-block fas fa-paper-plane"></div>
           <h3 class="display-3--title mt-1">홈보안</h3>
           <p class="lh-lg">
             현관문 앞 보안에 집중한 신개념 홈보안 시스템 </br>
             우리집 실내 보안에 집중한 홈보안 서비스 </br>
             실시간 영상 확인 및 양방향 대화 가능
           </p>
-          <button type="button" class="rounded-pill btn-rounded border-primary">보러가기
+          <button type="button" class="rounded-pill btn-rounded border-primary"onClick="location.href='#home2'">보러가기
             <span><i class="fas fa-arrow-right"></i></span>
           </button>
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
         <div class="services__pic">
-          <img src="images/services/service-1.png" alt="marketing illustration" class="img-fluid">
+          <img src="images/services/service-1.png" alt="marketing illustration" class="img-fluid"> 
         </div>
       </div>
     </div>
@@ -145,7 +149,6 @@
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
         <div class="services__content">
-          <div class="icon d-block fas fa-code"></div>
           <h3 class="display-3--title mt-1">물리보안</h3>
           <p class="lh-lg">
             원격 모니터링을 통해 신속한 출동을 제공하는 서비스 (출동경비) </br>
@@ -153,7 +156,7 @@
             공동주택 환경에 꼭 필요한 기능과 보안 서비스 </br>
             빈틈없는 철통보안으로 공간을 안전하게 지켜주는 뷰가드 </br>
           </p>
-          <button type="button" class="rounded-pill btn-rounded border-primary">보러가기
+          <button type="button" class="rounded-pill btn-rounded border-primary" onClick="location.href='#phy'">보러가기
             <span><i class="fas fa-arrow-right"></i></span>
           </button>
         </div>
@@ -163,14 +166,13 @@
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
         <div class="services__content">
-          <div class="icon d-block fas fa-cloud-upload-alt"></div>
           <h3 class="display-3--title mt-1">패키지상품</h3>
           <p class="lh-lg">
             일반 매장과 음식점, 사무실 창업까지! </br>
             어린이집 전용 CCTV와 위급상황 발생 시 긴급 출동 제공! </br>
             통학버스 CCTV 및 교내 폭력감지, 학생안심패키지 </br>
           </p>
-          <button type="button" class="rounded-pill btn-rounded border-primary">보러가기
+          <button type="button" class="rounded-pill btn-rounded border-primary" onClick="location.href='#pcg'">보러가기
             <span><i class="fas fa-arrow-right"></i></span>
           </button>
         </div>
@@ -198,17 +200,17 @@
     </div>
     <!-- FILTER BUTTONS  -->
     <div class="row mt-5 mb-4 g-3 text-center">
-      <div class="col-md-12">
-        <button class="btn btn-outline-primary" type="button">전체</button>
-        <button class="btn btn-outline-primary" type="button">홈보안</button>
-        <button class="btn btn-outline-primary" type="button">물리보안</button>
-        <button class="btn btn-outline-primary" type="button">패키지상품</button>
+      <div class="col-md-12 filter">
+        <button class="btn active btn-outline-primary" data-filter="*">전체</button>
+        <button class="btn btn-outline-primary" data-filter=".home2" id="home2">홈보안</button>
+        <button class="btn btn-outline-primary" data-filter=".phy" id="phy">물리보안</button>
+        <button class="btn btn-outline-primary" data-filter=".pcg" id="pcg">패키지상품</button>
       </div>
     </div>
 
     <!-- START THE PORTFOLIO ITEMS  -->
     <div class="row">
-      <div class="col-lg-4 col-md-6">
+      <div class="col-lg-4 col-md-6 home2">
         <div class="portfolio-box shadow">
           <img src="images/portfolio/portfolio-1.jpg" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid">
           <div class="portfolio-info">
@@ -223,7 +225,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="portfolio-box shadow">
           <img src="images/portfolio/portfolio-2.jpg" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
-          <div class="portfolio-info">
+          <div class="portfolio-info home2">
             <div class="caption">
               <h3>이너가드!!</h3>
               <h4>월 15,000원</h4>
@@ -326,9 +328,9 @@
 <section id="faq" class="faq">
   <div class="container">
     <div class="row text-center">
-      <h1 class="display-3 fw-bold text-uppercase">faq</h1>
+      <h1 class="display-3 fw-bold text-uppercase">자주하는 질문</h1>
       <div class="heading-line"></div>
-      <p class="lead">frequently asked questions, get knowledge befere hand</p>
+      <p class="lead">자주하는 질문 외 상담 요청 바랍니다.</p>
     </div>
     <!-- ACCORDION CONTENT  -->
     <div class="row mt-5">
@@ -338,12 +340,12 @@
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                What are the main features?
+                A/S 요청 시, 출장비가 발생 되나요?
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                A/S 접수는 별도의 출장비가 발생되지 않습니다.
               </div>
             </div>
           </div>
@@ -351,12 +353,12 @@
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                do i have to pay again after trial
+                대원 출동 시 출동료가 궁금합니다.
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                경비시간에 발생하는 침입 신호에 대해 출동은 횟수에 제한 없이 출동료가 발생하지 않으며, 고객님 요청에 의해 출동하는 경우 출동료 25,000원(부가세 포함) 부과 됩니다.
               </div>
             </div>
           </div>
@@ -364,12 +366,12 @@
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            How can I get started after trial?
+                가입 후 설치비가 있나요?
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                개통비 22,000원(부가세포함)이 월 이용료 청구 시 합산하여 청구 됩니다.
               </div>
             </div>
           </div>
@@ -377,12 +379,13 @@
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingFour">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                Can I be refunded if am not satisfied?
+                녹화 저장 방식 및 영상의 보존기간은 얼마이고, 화질은 어떻게 되나요?
               </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                기본적으로 500만화소 화질이며, 영상 DVR 내 HDD로 저장됩니다. 저장일수는 DVR 내 HDD 용량, 카메라 채널 수, 저장방식(상시녹화,이벤트녹화등) 상황에 따라 다소 차이가 날 수 있습니다. </br>
+                기본 제공 HDD보다 저장기간을 길게 하고 싶으시면 전문상담팀장님과 상담 후 HDD를 추가하시면 됩니다.
               </div>
             </div>
           </div>
@@ -398,54 +401,52 @@
 <section id="contact" class="get-started">
   <div class="container">
     <div class="row text-center">
-      <h1 class="display-3 fw-bold text-capitalize">Get started</h1>
+      <h1 class="display-3 fw-bold text-capitalize">문의하기</h1>
       <div class="heading-line"></div>
       <p class="lh-lg">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero illum architecto modi.
+        상담 신청을 남겨주시면 보안 전문가가 신속하게 상담해 드립니다.
       </p>
     </div>
 
     <!-- START THE CTA CONTENT  -->
-    <div class="row text-white">
-      <div class="col-12 col-lg-6 gradient shadow p-3">
-        <div class="cta-info w-100">
-          <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
-          <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam alias optio minima, tempore architecto sint ipsam dolore tempora facere laboriosam corrupti!
-          </p>
-          <h3 class="display-3--brief">What will be the next step?</h3>
-          <ul class="cta-info__list">
-            <li>We'll prepare the proposal.</li>
-            <li>we'll discuss it together.</li>
-            <li>let's start the discussion.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-12 col-lg-6 bg-white shadow p-3">
+    <div class="row">
+      <div class="col-12 col-lg-6 bg-white shadow p-3 text-white">
         <div class="form w-100 pb-2">
           <h4 class="display-3--title mb-5">start your project</h4>
           <form action="#" class="row">
             <div class="col-lg-6 col-md mb-3">
-              <input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg">
-            </div>
-            <div class="col-lg-6 col-md mb-3">
-              <input type="text" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg">
+              <input type="text" placeholder="이름" id="inputFirstName" class="shadow form-control form-control-lg">
             </div>
             <div class="col-lg-12 mb-3">
-              <input type="email" placeholder="email address" id="inputEmail" class="shadow form-control form-control-lg">
+              <input type="email" placeholder="이메일 주소" id="inputEmail" class="shadow form-control form-control-lg">
             </div>
             <div class="col-lg-12 mb-3">
-              <textarea name="message" placeholder="message" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
+              <textarea name="message" placeholder="전화번호/상담 내용/상담 희망 시간" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
             </div>
             <div class="text-center d-grid mt-1">
               <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3">
-                submit
+                무료상담신청
                 <i class="fas fa-paper-plane"></i>
               </button>
             </div>
           </form>
         </div>
       </div>
+      <div class="col-12 col-lg-6 gradient shadow p-3">
+        <div class="cta-info w-100">
+          <h4 class="display-4 fw-bold text-black">개인정보수집동의</h4>
+          <p class="lh-lg text-white">
+            개인정보의 수집 및 이용에 대한 동의를 거부할 권리가 있습니다.</br>
+            다만, 이러한 개인정보 수집˙이용에 동의하지 않을 경우 간편상담 서비스 제공이 불가능합니다.</br>
+          </p>
+          <h1 class="display-3--brief text-black">개인정보수집이용에 동의합니다.</h1>
+          <ul class="cta-info__list text-white">
+            <li>수집항목 : 고객명, 전화번호</li>
+            <li >목적 : 서비스 상담 등 거래관계의 설정</li>
+            <li>이용 및 보관기간 : 수집된 개인 정보는 정보 기입 후 6개월 간 보관됩니다.</li>
+          </ul>
+        </div>
+      </div>      
     </div>
   </div>
 </section>
@@ -457,9 +458,9 @@
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
   <div class="container">
     <div class="row text-center text-white">
-      <h1 class="display-3 fw-bold">Testimonials</h1>
+      <h1 class="display-3 fw-bold">제품후기</h1>
       <hr style="width: 100px; height: 3px; " class="mx-auto">
-      <p class="lead pt-1">what our clients are saying</p>
+      <p class="lead pt-1">서비스 이용후기</p>
     </div>
 
     <!-- START THE CAROUSEL CONTENT  -->
@@ -472,8 +473,8 @@
             <div class="testimonials__card">
               <p class="lh-lg">
                 <i class="fas fa-quote-left"></i>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
+                김지현 출장기사님이 저장용량을 증설 설치하는 내내 함께 계시면서CCTV에 설치 및 시스템에 대한 해박한 지식이 있으셔서 저희가 궁금한 것을 정확하게 설명해주시고 정확하게 보여 주시고 아주 큰 도움이 되었습니다
+                또, 화질이 좋아서 야간에 도움이 많이 되었습니다. 가격도 저렴하고 서비스도 좋고 완전 추천합니다.
                 <i class="fas fa-quote-right"></i>
                 <div class="ratings p-1">
                   <i class="fas fa-star"></i>
@@ -490,8 +491,8 @@
             </div>
             <!-- client name & role  -->
             <div class="testimonials__name">
-              <h3>Patrick Muriungi</h3>
-              <p class="fw-light">CEO & founder</p>
+              <h3>김지현 기사님</h3>
+              <p class="fw-light">홈보안</p>
             </div>
           </div>     
           <!-- CAROUSEL ITEM 2 -->
@@ -500,8 +501,8 @@
             <div class="testimonials__card">
               <p class="lh-lg">
                 <i class="fas fa-quote-left"></i>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
+                급하게 출동보안 부탁드렸는데 곧바로 오시고, 빠르게 처리해 주셔서 점검기간 내 완벽한 점검을 받을 수 있었습니다.
+                오피스보안 꼭 필수라는 것을 이번에 느꼈습니다. 회사에 새벽에 CCTV 감시로 문제가 있을 때 처리 해주시니, 밤에 문제도 없네요.
                 <i class="fas fa-quote-right"></i>
                 <div class="ratings p-1">
                   <i class="fas fa-star"></i>
@@ -518,8 +519,8 @@
             </div>
             <!-- client name & role  -->
             <div class="testimonials__name">
-              <h3>Joy Marete</h3>
-              <p class="fw-light">Finance Manager</p>
+              <h3>이정민</h3>
+              <p class="fw-light">오피스보안</p>
             </div>
           </div>     
           <!-- CAROUSEL ITEM 3 -->
@@ -528,8 +529,10 @@
             <div class="testimonials__card">
               <p class="lh-lg">
                 <i class="fas fa-quote-left"></i>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
+                교내 폭력 감지를 위한 CCTV 설치, 급식실 해충 관련해서 도움을 많이 받았어요
+                경비 보안으로는 부족한 부분을 채우주시고 학생들도 절도나 여러가지 문제가 발생했을 때 빠르게 대처 해줘서 고마워하고 있습니다. 
+                학교에는 CCTV 무조건 필수입니다! 가격도 연단위로 해서 사이트에 나온 가격보다 훨씬 저렴하게 진행했습니다~^^ 
+                기사님 ! 친절하게 해주셔서 감사합니다!  
                 <i class="fas fa-quote-right"></i>
                 <div class="ratings p-1">
                   <i class="fas fa-star"></i>
@@ -546,8 +549,8 @@
             </div>
             <!-- client name & role  -->
             <div class="testimonials__name">
-              <h3>ClaireBelle Zawadi</h3>
-              <p class="fw-light">Global brand manager</p>
+              <h3>윤주후</h3>
+              <p class="fw-light">학교안심패키지</p>
             </div>
           </div>     
           <!-- CAROUSEL ITEM 4 -->
@@ -556,8 +559,10 @@
             <div class="testimonials__card">
               <p class="lh-lg">
                 <i class="fas fa-quote-left"></i>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
+                빌리지 보안을 이용 중인데, 빌라를 구성할 때 각종 CCTV를 달아야지 안심이 되더라구요. 세입자들도 빌리지 보안으로 문 열어놓고 가도 아무도 안건든다고 좋아합니다.
+                건물 자체에 문제가 생기거나 외부 충격이 있기만 해도 곧바로 연락 주시고 출동해주세요. 대기업 못지않은 서비스에 이 가격이라니 가성비가 내리네요. 
+                그리고 콜센터는 당황해서 횡설수설 하는 와중에 상담도 침착하게 잘 응대해주어 15분만에 기사님이 도착했던 일도 있었어요. 
+                정말 추천드립니다:)
                 <i class="fas fa-quote-right"></i>
                 <div class="ratings p-1">
                   <i class="fas fa-star"></i>
@@ -574,8 +579,8 @@
             </div>
             <!-- client name & role  -->
             <div class="testimonials__name">
-              <h3>Uhuru Kenyatta</h3>
-              <p class="fw-light">C.E.O & Founder</p>
+              <h3>이준영</h3>
+              <p class="fw-light">빌리지보안</p>
             </div>
           </div>     
         </div>
@@ -591,54 +596,6 @@
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
 </section>
 
-<!-- //////////////////////////////////////////////////////////////////////////////////////////////
-                             START SECTION 3 - THE CAMPANIES SECTION  
-////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
-  <section id="campanies" class="campanies">
-    <div class="container">
-      <div class="row text-center">
-        <h4 class="fw-bold lead mb-3">Trusted by campanies like</h4>
-        <div class="heading-line mb-5"></div>
-      </div>
-    </div>
-    <!-- START THE CAMPANIES CONTENT  -->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-1.png" alt="Campany 1 logo" title="Campany 1 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-2.png" alt="Campany 2 logo" title="Campany 2 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-3.png" alt="Campany 3 logo" title="Campany 3 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-4.png" alt="Campany 4 logo" title="Campany 4 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-5.png" alt="Campany 5 logo" title="Campany 5 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-6.png" alt="Campany 6 logo" title="Campany 6 Logo" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
 <!-- ///////////////////////////////////////////////////////////////////////////////////////////
                            START SECTION 9 - THE FOOTER  
 ///////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -647,127 +604,37 @@
     <div class="row">
       <!-- CONTENT FOR THE MOBILE NUMBER  -->
       <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
-        <div class="contact-box__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-            <path d="M15 7a2 2 0 0 1 2 2" />
-            <path d="M15 3a6 6 0 0 1 6 6" />
-          </svg>
-        </div>
         <div class="contact-box__info">
           <a href="#" class="contact-box__info--title">1111-111</a>
-          <p class="contact-box__info--subtitle">  Mon-Fri 9am-6pm</p>
+          <p class="contact-box__info--subtitle">월-토 am9-pm8</p>
         </div>
       </div>  
       <!-- CONTENT FOR EMAIL  -->
       <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
-        <div class="contact-box__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <polyline points="3 9 12 15 21 9 12 3 3 9" />
-            <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
-            <line x1="3" y1="19" x2="9" y2="13" />
-            <line x1="15" y1="13" x2="21" y2="19" />
-          </svg>
-        </div>
         <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title">info@company.com</a>
-          <p class="contact-box__info--subtitle">Online support</p>
+          <a href="#" class="contact-box__info--title">info@cctvseeingnow.co.kr</a>
+          <p class="contact-box__info--subtitle">상시 메일 상담 진행중</p>
         </div>
       </div>
       <!-- CONTENT FOR LOCATION  -->
-      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
-        <div class="contact-box__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <line x1="18" y1="6" x2="18" y2="6.01" />
-            <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
-            <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
-            <line x1="9" y1="4" x2="9" y2="17" />
-            <line x1="15" y1="15" x2="15" y2="20" />
-          </svg>
-        </div>
+      <!-- <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
         <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title">New York, USA</a>
-          <p class="contact-box__info--subtitle">NY 10012, US</p>
+          <a href="#" class="contact-box__info--title">찾아오시는 길</a>
+          <p class="contact-box__info--subtitle">인천광역시 부평구 댕댕로 111번길 11, 다보여건물 1층</p>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
-
-  <!-- START THE SOCIAL MEDIA CONTENT  -->
-  <div class="footer-sm" style="background-color: #212121;">
-    <div class="container">
-      <div class="row py-4 text-center text-white">
-        <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
-          connect with us on social media
-        </div>
-        <div class="col-lg-7 col-md-6">
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- START THE CONTENT FOR THE CAMPANY INFO -->
-  <div class="container mt-5">
-    <div class="row text-white justify-content-center mt-3 pb-3">
-      <div class="col-12 col-sm-6 col-lg-6 mx-auto">
-        <h5 class="text-capitalize fw-bold">Campany name</h5>
-        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
-        <p class="lh-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ex obcaecati blanditiis reprehenderit ab mollitia voluptatem consectetur?
-        </p>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-        <h5 class="text-capitalize fw-bold">Products</h5>
-        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
-        <ul class="list-inline campany-list">
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-        </ul>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-        <h5 class="text-capitalize fw-bold">useful links</h5>
-        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
-        <ul class="list-inline campany-list">
-          <li><a href="#"> Your Account</a></li>
-          <li><a href="#">Become an Affiliate</a></li>
-          <li><a href="#">create an account</a></li>
-          <li><a href="#">Help</a></li>
-        </ul>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-        <h5 class="text-capitalize fw-bold">contact</h5>
-        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
-        <ul class="list-inline campany-list">
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
   <!-- START THE COPYRIGHT INFO  -->
   <div class="footer-bottom pt-5 pb-5">
     <div class="container">
       <div class="row text-center text-white">
         <div class="col-12">
           <div class="footer-bottom__copyright">
-            &COPY; Copyright 2021 <a href="#">Company</a> | Created by <a href="http://codewithpatrick.com" target="_blank">Muriungi</a><br><br>
-
-            Distributed by <a href="http://themewagon.com" target="_blank">ThemeWagon</a>
+            &COPY; Copyright 2021 <a href="#">CCTV SeeingNow</a><br><br> 
+            ALL RIGHTS RESERVED.
           </div>
-        </div>
+          </div>
       </div>
     </div>
   </div>
