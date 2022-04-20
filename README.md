@@ -11,7 +11,8 @@
 상업 목적으로 사용하는 사이트가 아니라는 점 유의 바랍니다. <br>
 현재 문의하기 및 여러 js 등은 닫아 놨습니다.
 
-<img url="./images/cctv다보여.PNG">
+## Initial screen
+![cctv다보여](https://user-images.githubusercontent.com/76087709/164152476-d03f82a3-ad3a-4071-ab7a-722ced5b9e32.PNG)
 
 ## URL
 [⌛CCTV 다보여](https://4off4.github.io/cctvProject/)
